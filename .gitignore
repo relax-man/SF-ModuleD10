@@ -15,4 +15,3 @@ src/settings/local.py
 
 # Static and media files
 src/staticfiles/
-src/media/
