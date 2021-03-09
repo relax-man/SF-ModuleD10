@@ -13,7 +13,28 @@
 <body>
 
     <div class="container py-3 py-md-4">
-        <span class="display-4">Hello</span>
+        <div class="row">
+            <span class="display-4 mb-2">Api URLS:</span>
+        </div>
+        <div class="row">
+            <span class="mr-2">Base:</span>
+            <a href="{{request.build_absolute_uri}}api/">
+                /api/
+            </a>
+        </div>
+        <div class="row">
+            <span class="mr-2">Cars Filtered List:</span>
+            <a href="{% url 'cars_api:car-list' %}">
+                /api/cars/?query_params
+            </a>
+        </div>
+        <div class="
+                row">
+            <span class="mr-2">Car Detail:</span>
+            <a href="{% url 'cars_api:car-detail' 1 %}">
+                /api/cars/<:id>
+            </a>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,7 +1,7 @@
 from django.urls import path, include
 from apps.cars.api.views import CarListView, CarRetrieveView
 
-app_name = 'car_api'
+app_name = 'cars_api'
 
 urlpatterns = [
     path('cars/', CarListView.as_view(), name='car-list'),
