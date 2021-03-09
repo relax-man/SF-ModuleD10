@@ -1,0 +1,86 @@
+[
+{
+  "model": "cars.car",
+  "pk": 1,
+  "fields": {
+    "producer": "Audi",
+    "model": "Q3",
+    "photo": "cars/audi-q3.jpg",
+    "issue_year": 2021,
+    "transmission": 2,
+    "color": "#FF9C59"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 2,
+  "fields": {
+    "producer": "Jaguar",
+    "model": "E-Type",
+    "photo": "cars/jaguar-e-type.jpg",
+    "issue_year": 1960,
+    "transmission": 1,
+    "color": "#74A0D3"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 3,
+  "fields": {
+    "producer": "Chevrolet",
+    "model": "Corvette",
+    "photo": "cars/chevrolet-corvette.jpg",
+    "issue_year": 1963,
+    "transmission": 1,
+    "color": "#FF4F21"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 4,
+  "fields": {
+    "producer": "Lamborghini",
+    "model": "Miura",
+    "photo": "cars/lamborghini-miura.jpg",
+    "issue_year": 1966,
+    "transmission": 2,
+    "color": "#4D915C"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 5,
+  "fields": {
+    "producer": "Porsche",
+    "model": "911",
+    "photo": "cars/porsche-911.jpg",
+    "issue_year": 1974,
+    "transmission": 1,
+    "color": "#FFFFFF"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 6,
+  "fields": {
+    "producer": "Acura",
+    "model": "NSX",
+    "photo": "cars/acura-nsx.jpg",
+    "issue_year": 2000,
+    "transmission": 2,
+    "color": "#486CFF"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 7,
+  "fields": {
+    "producer": "McLaren",
+    "model": "F1",
+    "photo": "cars/mclaren-f1.jpg",
+    "issue_year": 1992,
+    "transmission": 2,
+    "color": "#222222"
+  }
+}
+]
